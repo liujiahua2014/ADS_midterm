@@ -184,7 +184,7 @@ def cleanPerfData(perf_file, clean_file):
 
 # In[ ]:
 
-for year in range(2005, 2005):
+for year in range(2005, 2006):
     for quarter in range(1, 3):
         orig_file = 'historical_data1_Q{0}{1}/historical_data1_Q{0}{1}.txt'.format(quarter, year)
         orig_clean_file = 'historical_data1_Q{0}{1}/historical_data1_Q{0}{1}_clean.csv'.format(quarter, year)

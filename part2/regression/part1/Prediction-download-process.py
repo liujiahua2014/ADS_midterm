@@ -5,6 +5,11 @@
 
 from bs4 import BeautifulSoup
 import requests
+import pandas as pd
+import numpy as np
+from collections import OrderedDict
+from random import randint, random
+from numbers import Number
 
 
 # In[2]:
